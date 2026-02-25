@@ -45,12 +45,15 @@ body::before{
     padding: 1rem 1rem;
     background-position: center center;
     background-repeat: no-repeat;
+     outline: none;
+    border: none;
 }
  .close{
     background-image: url(./images/icon-close.svg);
     padding: 1rem 1rem;
     background-position: center center;
     background-repeat: no-repeat;
+     
 }
 
 .nav{
@@ -205,6 +208,8 @@ li #grey::before{
    color: hsl(207, 33%, 95%);
    font-weight: 700;
    font-size: 0.9rem;
+    outline: none;
+   border: none;
    
 }
 
@@ -501,4 +506,5 @@ li #grey::before{
 
 
 }
+
 
